@@ -1,0 +1,62 @@
+---
+layout: archive
+title: Playlists
+---
+
+<section id="playlists" class="section--postsWrapper-green">
+  <div class="container">    
+         <div class="col-md-12">
+          <div class="section-title lines-light">_The Playlists</div>
+      </div>
+    <div class="blockGroup">
+      <ul class="blockGroup-list">
+        {% for post in site.posts %}
+             {% if post.categories contains 'playlists' %}
+          <li class="block">
+            <div class="postArticle-wrapper">
+
+              <article class="postArticle postArticle--short">
+                {% if post.image.feature %}
+                  <a href="{{ post.url }}">
+                    <div class="postArticle-image desaturate" style="background-image:url('{{ post.image.feature | prepend: site.baseurl_featured_img }}')">
+                    </div>
+                  </a>
+                {% else %}
+                <a href="{{ post.url }}">
+                  <div class="postArticle-image" style="background-image:url('{{site.baseurl}}assets/images/logo-black.svg')">
+                  </div>
+                </a>
+                {% endif %}
+                
+                
+              </article>
+              <a class="postArticle-title" href="{{ post.url }}">{{ post.title }}</a>
+              <div class="block-postMeta serified">_ {{ post.categories }}</div>
+            </div>
+          </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+<!--
+                <div class="col-md-12">
+          <div class="section-title button-archive align-right"><a href="/">_Back to homepage</a></div>
+      </div>
+-->
+  </div>
+
+</section> 
+         
+
+
+
+<section class="section--subscribe">
+  <div class="container container--content">
+    <h3 class="u-alignCenter">Want your playlist to be featured here?</h3>
+
+    <p>
+Yes, send us your playlist consists of maximum 10 songs. It could be arranged for your own personal reason. No need to be conceptual whatsoever.</p>
+   <p>If you're ready with your playlist, just send the text list to: theplaydept(at)gmail(dot)com.</p>
+    <hr/>
+  </div>
+</section>

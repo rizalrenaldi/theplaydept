@@ -1,0 +1,23 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en-us" class="no-js">
+
+  {% include head.html %}
+
+  <body>
+    {% if page.url != '/index.html' %}
+
+      {% include menu.html %}
+    {% endif %}
+    
+    {% include header-mainmenu.html %}
+
+    {{ content }}
+
+      {% include footer.html %}
+
+    {% include footer-scripts.html %}
+  </body>
+</html>

@@ -1,0 +1,35 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en-us" class="no-js">
+
+  {% include head.html %}
+  
+    <link rel="stylesheet" href="{{ site.baseurl }}css/playday-fs.css">
+
+  <body>
+    
+<div class="playday-fs">
+   <div class="topbanner">
+       <div class="inner"><a href="{{ site.url }}"><img class="logotopbanner" src="{{ site.baseurl }}assets/images/logo-text-white.svg"></a>
+<!--       <a href="{{ site.baseurl }}" class="ctatpd">_Go to theplaydept.com</a>-->
+       <div class="shares-playday blink-me">
+       <ul>
+           <li>{</li>
+                     <li><div class="fb-like" data-href="{{ page.url }}" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div></li>
+           <li>_share:</li>
+           <li><a href="https://twitter.com/intent/tweet?text={{ page.title }} by {{ page.artist }}&url={{ site.url }}{{ page.url }}&via={{ site.author.twitter }}" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter"></i></a></li>
+           <li><a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook"></i></a></li>
+           <li>}</li>
+       </ul>
+   </div>  
+       </div>
+   </div>
+    {{ content }}
+    </div>
+
+    
+    {% include footer-scripts.html %}
+  </body>
+</html>

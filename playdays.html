@@ -1,0 +1,72 @@
+---
+layout: archive
+title: Playday
+---
+
+<!--
+<section class="hero">
+</section>
+-->
+
+<section id="playday" class="section-main">
+   <div class="container">
+      <div class="col-md-12">
+          <div class="section-title lines-dark">_The Playdays</div>
+      </div>
+
+       {% for post in site.posts %}
+    {% if post.categories contains 'playdays' %}
+        <div class="col-sm-6 botmarg">
+    <div class="videoWrapper videoWrapper169 js-videoWrapper">
+    <iframe class="videoIframe js-videoIframe" src="" frameborder="0" allowTransparency="true" allowfullscreen data-src="https://www.youtube.com/embed/{{ post.youtubeid }}?autoplay=1& modestbranding=1&rel=0"></iframe>
+    <button class="videoPoster js-videoPoster" style="background-image:url({{ site.baseurl_posts_img }}{{ post.cover }});"><h2 class="bolder">{{ post.title }}</h2> <div class="serified">by <span class="thin-serif">{{ post.artist }}</span></div><div class="post-cat">_ {{ post.categories }}</div>  </button>
+        <div class="shares">
+       <ul>
+           <li><a href="{{ site.url }}{{ post.url }}" class="ctatpd">{ _share }</a></li>
+       </ul>
+   </div>  
+  </div> 
+  
+    </div>
+            {% endif %}
+    {% endfor %}
+         
+<!--
+          <div class="col-md-12">
+          <div class="section-title button-archive align-right"><a href="/">_Back to homepage</a></div>
+      </div>
+-->
+    </div>
+
+</section>
+
+<section class="section--subscribe">
+  <div class="container container--content">
+    <h3 class="u-alignCenter">Play what?</h3>
+
+    <p>
+        The Play Dept. (The Play Department) dig through the bottom of music world, find the gems that mostly unnoticed, hidden by the noise of industry. The Play Dept. is perfect for non-genre-specific music lover, receptive listeners, open-minded people who thrists for new music and the one that think back-to-the-root movement is pointless bullshit.
+    </p>
+    
+    <p>We don't give rating to any music. If it's good, it's here. Otherwise it's not worth our and your attention.</p>
+    <div class="newsletterForm-wrapper">
+           <!-- Begin MailChimp Signup Form -->
+      <div id="mc_embed_signup">
+        <form action="//theplaydept.us16.list-manage.com/subscribe/post?u=6703918b52025525963cf3a30&amp;id=93f9419645" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div id="mc_embed_signup_scroll">
+            <div class="mc-field-group">
+              <input type="email" value="" name="EMAIL" class="textInput textInput--large" id="mce-EMAIL" placeholder="Your email address">
+            </div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;"><input type="text" name="b_6703918b52025525963cf3a30_93f9419645" tabindex="-1" value=""></div>
+            <div class="clear u-alignCenter"><input type="submit" value="Get updates by email" name="subscribe" id="mc-embedded-subscribe" class="button button--primary"></div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <hr/>
+  </div>
+</section>

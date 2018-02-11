@@ -1,0 +1,94 @@
+---
+layout: homepage
+title: The Play Dept.
+---
+
+<section id="playdays" class="section-main">
+    <section class="grid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 wp">
+                    <div class="card">
+                        <div class="detail">
+                            <h1>Mother.</h1>
+                            <p>How are you today?</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 wp">
+                    <div class="card2">
+                        <div class="detail2">
+                            <div class="button-o"><span>Download</span></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 wp">
+                    <a href="#modol" role="button" data-toggle="modal" data-target="#exampleModal">
+                    <div class="card">
+                        <div class="detail">
+                            <div class="left">
+                                <h1 class="product-title">Soft Enamel Pin PSD Mockub.</h1>
+                            </div>
+                            <div class="right">
+                                <span class="title"><i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                
+                
+                    <div class="col-md-4 wp">
+                    <div class="card">
+                        <div class="detailMid">
+                            <h1>Mother.</h1>
+                            <p>How are you today?</p>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                    <div class="col-md-4 wp">
+                    <div class="card">
+                        <div class="detailMid">
+                            <h1>Mother.</h1>
+                            <p>How are you today?</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>    
+        </section>
+    
+</section>
+
+<section id="playdays" class="section-main">
+   <div class="container">
+      <div class="col-md-12">
+          <div class="section-title lines-dark">_The Playdays</div>
+      </div>
+
+        {% for post in site.categories.playdays limit:4 %}
+    <div class="col-sm-6 botmarg">
+    <div class="videoWrapper videoWrapper169 js-videoWrapper">
+    <iframe class="videoIframe js-videoIframe" src="" frameborder="0" allowTransparency="true" allowfullscreen data-src="https://www.youtube.com/embed/{{ post.youtubeid }}?autoplay=1& modestbranding=1&rel=0"></iframe>
+    <button class="videoPoster js-videoPoster" style="background-image:url({{ site.baseurl_posts_img }}{{ post.cover }});"><h2 class="bolder">{{ post.title }}</h2> <div class="serified">by <span class="thin-serif">{{ post.artist }}</span></div><div class="post-cat">_ {{ post.categories }}</div>  </button>
+        <div class="shares">
+       <ul>
+           <li><a href="{{ site.url }}{{ post.url }}" class="ctatpd">{ _share }</a></li>
+       </ul>
+   </div>  
+  </div> 
+  
+    </div>
+    {% endfor %}
+         
+          <div class="col-md-12">
+          <div class="button-archive align-right"><a href="/playdays">_See all Playdays</a></div>
+      </div>
+    </div>
+
+</section>
