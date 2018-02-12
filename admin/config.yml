@@ -6,7 +6,7 @@ backend:
     - editor
   base_url: https://api.netlify.com
 publish_mode: editorial_workflow
-media_folder: "assets/images" # Media files will be stored in the repo under static/images/uploads
+media_folder: "assets/images" # Media files will be stored in the repo under assets/images
 collections:
   - name: "post" # Used in routes, e.g. /admin/collections/blog
     label: "Post" # Used in the UI

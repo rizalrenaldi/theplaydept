@@ -16,7 +16,7 @@ description:         Daily curated of worth noting music
 url:                 https://www.theplaydept.com
 rss:                 rss feed url
 baseurl:             '/'
-baseurl_posts_img:   '/assets/images/posts/'
+baseurl_posts_img:   '/assets/images/'
 baseurl_featured_img: '/assets/images/hero/'
 baseurl_featured_thumbnail: '/assets/images/thumbnail/'
 baseurl_javascripts: '/assets/javascripts/'
