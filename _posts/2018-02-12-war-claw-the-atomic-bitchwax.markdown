@@ -2,11 +2,11 @@
 layout: playday
 title:  "War Claw"
 artist: The Atomic Bitchwax
-date:   2018-02-12 08:00:00 +0700
-last_modified_at:  2018-02-12 08:00:00 +0700
+date:   2018-02-12 00:00:00 +0700
+last_modified_at:  2018-02-12 00:00:00 +0700
 excerpt: "It’s like riding on Falcon Heavy at 16.000 mph while blasting offs a machine gun straight to those radical fuckers. Rock and roll, baby!"
 categories: playdays
-tags:  The Atomic Bitchwax, Rock & Roll
+tags:  The Atomic Bitchwax, rocknroll
 image:
   topPosition: -50px
 bgContrast: dark
