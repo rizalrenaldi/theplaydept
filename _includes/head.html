@@ -97,7 +97,7 @@
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}assets/apple-touch-icon-144-precomposed.png">
   <link rel="shortcut icon" href="{{ site.baseurl }}assets/images/favicon.ico">
-  
+
 <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ site.baseurl }}assets/images/apple-touch-icon-57x57.png" />
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.baseurl }}assets/images/apple-touch-icon-114x114.png" />
 <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.baseurl }}assets/images/apple-touch-icon-72x72.png" />
@@ -118,13 +118,14 @@
 <meta name="msapplication-square150x150logo" content="{{ site.baseurl }}assets/images/mstile-150x150.png" />
 <meta name="msapplication-wide310x150logo" content="{{ site.baseurl }}assets/images/mstile-310x150.png" />
 <meta name="msapplication-square310x310logo" content="{{ site.baseurl }}assets/images/mstile-310x310.png" />
-   
+
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
 
   <!-- modernizer -->
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  <script src="https://identity-js.netlify.com/v1/netlify-identity-widget.js"></script>
 
   <!--[if lt IE 9]>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -134,10 +135,10 @@
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.js"></script>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
   <![endif]-->
-  
+
 {% if jekyll.environment == "publish" %}
 {% include analytics.html %}
-{% endif %}  
+{% endif %}
 
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -147,6 +148,6 @@
   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=236594396838887";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
- 
-  
+
+
 </head>
