@@ -7,21 +7,10 @@
   {% include head.html %}
 
   <body>
-    {% if page.url != '/index.html' %}
-      <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-      {% include sidebar-nav.html %}
-      {% include menu.html %}
-    {% endif %}
-    
+    {% include header-mainmenu.html %}
     {{ content }}
 
-    {% if page.url != '/index.html' %}
-      {% include sidebar-toggle.html %}
-    {% endif %}
-
-      {% include subscribe.html %}
-      {% include footer.html %}
-
+    {% include footer.html %}
     {% include footer-scripts.html %}
   </body>
 </html>
