@@ -1,62 +1,40 @@
 ---
 layout: default
 ---
-<article class="postWrapper">
-  <section class="section--first is-darkBackgrounded u-table">
-    <div class="section-backgroundImage">
+<section class="playground-post">
 
-      {% if page.image.feature %}
-        <img class="post-featuredImage" src="{{ page.image.feature | prepend: site.baseurl_featured_img }}" style="
-        {% if page.image.topPosition %}
-          top:{{ page.image.topPosition }};
-        {% endif %}
-        " alt="">
-      {% endif %}
-
-    </div>
-    <div class="section-gradient
-    {% if page.bgGradientOpacity == "darker" %}
-      section-gradient--darker
-    {% elsif page.bgGradientOpacity == "lighter" %}
-      section-gradient--lighter
-    {% endif %}
-    "></div>
-    <div class="section-title is-darkBackgrounded u-tableCell u-verticalAlignMiddle">
-      <div class="container">
-        <h1 class="normalkan">{{ page.title }}</h1>
-        <div class="postMeta-wrapper">
-          <ul class="postMeta serified">
-            <li class="postMeta-datetime serified">
-              <time datetime="{{ page.date }}">
-                {{ page.date | date_to_string }}
-              </time>
-            </li>
-            <li class="postMeta-author serified">
-              By {{ page.author }}
-            </li>
-            <li class="postMeta-tags serified">
-              {{ page.categories }}
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="section--last">
-    <div class="container container--content">
-      <div class="content-body">
-
-        {{ content }}
-
-      </div>
-    </div>
-    <hr class="u-clearHr"/>
-    <hr class="u-clearHr"/>
-    <hr/>
-    <div class="container container--content">
-      <div class="content-body">
-      </div>
-      
-    </div>
-  </section>
-</article>
+     <div class="container-fluid">
+       <div class="row">
+         <div class="col-12">
+           <div class="image-header">
+             <div class="postbg" style="background:url('{{ site.url }}/assets/images/hero/{{ page.cover }}')no-repeat center center;background-attachment: fixed;"></div>
+           </div>
+         </div>
+       </div>
+     </div>
+     <div class="container">
+       <div class="row text-left">
+         <div class="col-md-12 my-2">
+           <h1>{{ page.title }}</h1>
+           <p class="lead">{{ page.excerpt }}</p>
+           <ul class="post-detail">
+             <li><small>by {{ page.author }}</small></li>
+             <li><small>{{ page.date | date_to_long_string }}</small></li>
+             <li><small>{{ page.tags }}</small></li>
+           </ul>
+         </div>
+       </div>
+     </div>
+     <div class="container mt-5">
+       <div class="row">
+         <div class="col-md-8">
+           <article>
+             {{ content }}
+           </article>
+         </div>
+          <div class="col-md-4">
+            <div class="box ad sticky-top p-4">AD</div>
+          </div>
+       </div>
+     </div>
+   </section>

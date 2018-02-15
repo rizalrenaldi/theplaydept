@@ -1,13 +1,26 @@
----
-layout: default
-title: Playday
----
-
-<section class="top-archive" data-transition="fadeIn" style="background: url('/assets/images/1.jpg')no-repeat top center;">
+<section class="top" data-transition="fadeIn" style="background: url('/assets/images/1.jpg')no-repeat top center;">
   <div class="separator"></div>
-  <div class="container h-75">
-    <div class="row h-75">
-      <h1 class="sr-only">Playdays Archive</h1>
+  <div class="container h-100">
+    <div class="row h-100">
+      <div class="col-md-6 h-75 d-flex pb-5 align-items-end">
+        <div class="headline mb-5 pb-5">
+            <button class="equalizer">
+              <span class="eq1"></span>
+              <span class="eq2"></span>
+              <span class="eq3"></span>
+            </button>
+          <a href="{{ post.url }}">
+            <small>Featured Playday</small>
+            <h1>{{ post.title }}</h1>
+            <h4>by {{ post.artist }}</h4>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-6 h-75 d-flex pb-5 text-md-left text-lg-right align-items-end">
+        <div class="headline mb-5 pb-5">
+          <p><a class="btn btn-success btn-lg d-inline ml-2" href="{{ post.artist_website }}" role="button">{{ post.artist }} website</a></p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -32,7 +45,7 @@ title: Playday
         </div>
       </div>
       <div class="row">
-        {% for post in site.categories.playdays limit:1 %}
+
         <div class="col-lg-4 col-md-12 py-4">
           <a href="{{ post.url }}">
             <div class="overlay"></div>
@@ -44,7 +57,7 @@ title: Playday
             </div>
           </a>
         </div>
-        {% endfor %}
+
 
         <div class="col-md-12 p-4 text-right">
           <a class="btn btn-danger btn-lg" href="/playdays/" role="button">See all Playdays</a>
