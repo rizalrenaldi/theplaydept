@@ -1,62 +1,80 @@
 ---
 layout: default
-title: Playlists
+title: Playlist
+pagination:
+  enabled: true
+  category: Playlists
+  per_page: 12
 ---
 
-<section id="playlists" class="section--postsWrapper-green">
-  <div class="container">
-         <div class="col-md-12">
-          <div class="section-title lines-light">_The Playlists</div>
-      </div>
-    <div class="blockGroup">
-      <ul class="blockGroup-list">
-        {% for post in site.posts %}
-             {% if post.categories contains 'playlists' %}
-          <li class="block">
-            <div class="postArticle-wrapper">
-
-              <article class="postArticle postArticle--short">
-                {% if post.image.feature %}
-                  <a href="{{ post.url }}">
-                    <div class="postArticle-image desaturate" style="background-image:url('{{ post.image.feature | prepend: site.baseurl_featured_img }}')">
-                    </div>
-                  </a>
-                {% else %}
-                <a href="{{ post.url }}">
-                  <div class="postArticle-image" style="background-image:url('{{site.baseurl}}assets/images/logo-black.svg')">
-                  </div>
-                </a>
-                {% endif %}
-
-
-              </article>
-              <a class="postArticle-title" href="{{ post.url }}">{{ post.title }}</a>
-              <div class="block-postMeta serified">_ {{ post.categories }}</div>
-            </div>
-          </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
+<section class="top-archive" data-transition="fadeIn" style="background: url('/assets/images/playlists.jpg')no-repeat center center;">
+  <div class="separator"></div>
+  <div class="container h-75">
+    <div class="row h-75">
+      <h1 class="sr-only">Playlists Archive</h1>
     </div>
-<!--
-                <div class="col-md-12">
-          <div class="section-title button-archive align-right"><a href="/">_Back to homepage</a></div>
+  </div>
+</section>
+
+
+<section id="Playlists" class="mb-5">
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 p-5 feat-box radius">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="category-title">
+            <svg id="i-options" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="#52a3d7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                <path d="M28 6 L4 6 M28 16 L4 16 M28 26 L4 26 M24 3 L24 9 M8 13 L8 19 M20 23 L20 29" />
+            </svg>
+            <h2 class="text-blue">The Playlists</h2>
+            <p class="lead">Mixtape kind of things, curated by our selected listeners.</p>
+          </div>
+        </div>
+        <div class="col-md-6 text-right text-grey">
+          <h1>{{ paginator.page }}/{{ paginator.total_pages }}</h1>
+        </div>
       </div>
--->
-  </div>
 
+      <div class="row">
+        {% for post in paginator.posts %}
+        <div class="col-lg-4 col-md-12 py-4">
+          <a href="{{ post.url }}">
+            <div class="box d-flex flex-column text-center justify-content-center thumb" style="background: url('{{ site.url }}/assets/images/hero/{{ post.cover }}')no-repeat center center; background-size: cover;">
+              <div class="overlay-box"></div>
+              <div class="playlist-title">
+                <h2>{{ post.title }}</h2>
+                <small>by {{ post.author }}</small>
+              </div>
+            </div>
+          </a>
+        </div>
+        {% endfor %}
+
+      </div>
+    </div>
+  </div>
+</div>
 </section>
 
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      {% if paginator.total_pages > 1 %}
+<ul class="text-center">
+  {% if paginator.previous_page %}
+  <li class="d-inline">
+    <a class="btn btn-outline-secondary btn-lg" href="{{ site.url }}{{ paginator.previous_page_path }}">Newer</a>
+  </li>
+  {% endif %}
+  {% if paginator.next_page %}
+  <li class="d-inline">
+    <a class="btn btn-outline-secondary btn-lg" href="{{ site.url }}{{ paginator.next_page_path }}">Older</a>
+  </li>
+  {% endif %}
+</ul>
+{% endif %}
 
-
-
-<section class="section--subscribe">
-  <div class="container container--content">
-    <h3 class="u-alignCenter">Want your playlist to be featured here?</h3>
-
-    <p>
-Yes, send us your playlist consists of maximum 10 songs. It could be arranged for your own personal reason. No need to be conceptual whatsoever.</p>
-   <p>If you're ready with your playlist, just send the text list to: theplaydept(at)gmail(dot)com.</p>
-    <hr/>
+    </div>
   </div>
-</section>
+</div>

@@ -32,7 +32,7 @@ songs:
 
   song3: I.A.M.G.O.D.
   artist3: Papanegro
-  youtubeid3: tPgf_btTFlc
+  youtubeid3: 3itIZskiRWk
 
   song4: Money In The Desert
   artist4: Bill Laurence
@@ -40,7 +40,7 @@ songs:
 
   song5: Lingus
   artist5: Snarky Puppy
-  youtubeid5: fuhHU_BZXSk
+  youtubeid5: L_XJ_s5IsQc
 
   song6: Sir Duke
   artist6: Stevie Wonder
