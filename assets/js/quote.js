@@ -16,8 +16,8 @@ var lyrics = [
   'Make a new cult every day to suit your affairs.',
   'Being rebel is fine, but you go all the way to being brutal.',
   'Work it, make it, do it, makes us: harder, better, faster, stronger.',
-  'Hello darkness my old friend, I\'\ve come to talk with you again.',
-  'I was happy in the haze of a druken hour, but heaven knows I\'\m miserable now.'
+  'Hello darkness my old friend, I\'ve come to talk with you again.',
+  'I was happy in the haze of a druken hour, but heaven knows I\'m miserable now.'
 ];
 
 $(document).ready(function() {
