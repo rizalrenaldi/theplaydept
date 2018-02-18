@@ -27,6 +27,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
   z-index: 5!important;
 }
 
+@media screen and (max-width: 991px) {
+  #navbarColor03 {
+    background: #222;
+    padding: 0 20px;
+  }
+}
+
 #playlists, #playgrounds, #artists, #subscribe, #lyrics {
   padding: 80px 0 40px 0;
 }
