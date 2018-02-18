@@ -328,7 +328,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
   border-radius: 10px;
 }
 
-.playground-post {
+.playsomething-post {
   margin-top: 80px;
 }
 
@@ -1127,4 +1127,21 @@ footer a:hover {
       -moz-box-shadow: 0 0 0 0 rgba(254, 206, 79, 0);
       box-shadow: 0 0 0 0 rgba(254, 206, 79, 0);
   }
+}
+
+article {
+  margin-bottom: 80px;
+}
+
+article a {
+  color: #fece4f;
+}
+
+article a:hover {
+  color: #fece4f;
+  border-bottom: 1px dotted #fece4f;
+}
+
+article h5 {
+  margin-top: 20px;
 }

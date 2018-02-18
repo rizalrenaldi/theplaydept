@@ -56,30 +56,53 @@ title: playday
       <div class="container bordertop">
         <div class="row">
           <div class="col-md-6 pt-5">
-            {% if page.previous.url %}
-            <a href="{{ page.previous.url }}">
-              <div class="overlay"></div>
-              <div class="box d-flex flex-column text-center justify-content-center thumb" style="background: url('{{ site.baseurl_posts_img }}{{ page.previous.cover }}')no-repeat center center; background-size: cover;">
-                <div class="playday-title">
-                  <h1>{{ page.previous.title }}</h1>
-                  <small>by {{ page.previous.artist }}</small>
+
+            {% for post in site.categories.playdays %}
+              {% if post.url == page.url %}
+                  {% assign post_index0 = forloop.index0 %}
+                  {% assign post_index1 = forloop.index %}
+              {% endif %}
+          {% endfor %}
+          {% for post in site.categories.playdays %}
+              {% if post_index0 == forloop.index %}
+                  {% assign next_post = post.url %}
+                  {% assign next_post_title = post.title %}
+                  {% assign next_post_artist = post.artist %}
+                  {% assign next_post_cover = post.cover %}
+              {% endif %}
+              {% if post_index1 == forloop.index0 %}
+                  {% assign prev_post = post.url %}
+                  {% assign prev_post_title = post.title %}
+                  {% assign prev_post_artist = post.artist %}
+                  {% assign prev_post_cover = post.cover %}
+              {% endif %}
+          {% endfor %}
+          {% if next_post %}
+              <a href="{{ next_post }}">
+                <div class="overlay"></div>
+                <div class="box d-flex flex-column text-center justify-content-center thumb" style="background: url('{{ site.baseurl_posts_img }}{{ next_post_cover }}')no-repeat center center; background-size: cover;">
+                  <div class="playday-title">
+                    <h1>{{ next_post_title }}</h1>
+                    <small>by {{ next_post_artist }}</small>
+                  </div>
                 </div>
-              </div>
-            </a>
-            {% endif %}
+              </a>
+          {% endif %}
           </div>
           <div class="col-md-6 pt-5">
-            {% if page.next.url %}
-            <a href="{{ page.next.url }}">
-              <div class="overlay"></div>
-              <div class="box d-flex flex-column text-center justify-content-center thumb" style="background: url('{{ site.baseurl_posts_img }}{{ page.next.cover }}')no-repeat center center; background-size: cover;">
-                <div class="playday-title">
-                  <h1>{{ page.next.title }}</h1>
-                  <small>by {{ page.next.artist }}</small>
+          {% if prev_post %}
+              <a href="{{ prev_post }}">
+                <div class="overlay"></div>
+                <div class="box d-flex flex-column text-center justify-content-center thumb" style="background: url('{{ site.baseurl_posts_img }}{{ prev_post_cover }}')no-repeat center center; background-size: cover;">
+                  <div class="playday-title">
+                    <h1>{{ prev_post_title }}</h1>
+                    <small>by {{ prev_post_artist }}</small>
+                  </div>
                 </div>
-              </div>
-            </a>
-            {% endif %}
+              </a>
+          {% endif %}
+        </div>
+
 
           </div>
         </div>
