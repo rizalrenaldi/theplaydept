@@ -10,15 +10,7 @@ html, body {
 }
 
 .shadow {
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-}
-
-.leftbg {
-  width: 300px;
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: -1;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
 }
 
 .feat-box {
@@ -31,8 +23,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
   position: relative;
 }
 
-#playlists, #playgrounds, #artists, #subscribe, #what {
-  padding: 80px 0;
+.aboveall {
+  z-index: 5!important;
+}
+
+#playlists, #playgrounds, #artists, #subscribe, #lyrics {
+  padding: 80px 0 40px 0;
+}
+
+#what {
+  padding: 80px;
 }
 
 #divider {
@@ -117,11 +117,16 @@ nav {
   background: #222;
 }
 
+.bg-wrapper {
+  background: url('/assets/images/blocklargebg.svg')no-repeat center center;
+  background-size: cover;
+}
+
 #barba-wrapper, .barba-container {
   position: relative;
 }
 
-.about, .contribute {
+.about, .contribute, .terms {
   padding-top: 180px;
 }
 
@@ -215,6 +220,17 @@ nav {
 .playday-content {
   padding: 100px 0 40px 0;
   z-index: 5;
+}
+
+.coverimage {
+  width: 100%;
+  margin:0;
+  pading:0;
+}
+
+#image, .trackdata {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .separator {
@@ -407,6 +423,12 @@ section a:hover .box-small {
   font-weight: 700;
 }
 
+.lead-serified {
+  font-family: 'Libre Baskerville', sans-serif;
+  font-style: italic;
+  color: #868e96;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -471,7 +493,7 @@ section .lead {
 }
 
 .text-white {
-  color: #ffffff;
+  color: #ffffff!important;
 }
 
 .text-blue {
@@ -836,11 +858,22 @@ footer a:hover {
   margin: 0 10px;
 }
 
-/* COLOR */
+/* BACKGROUND */
 
 .light-grey {
   /* background-color: rgba(0,0,0,0.1); */
   background-color: #1f1f1f;
+}
+
+.bg-black {
+  background-color: #000000;
+}
+
+.bg-dot {
+  width:auto;
+  height: auto;
+  background-image: url('/assets/images/dot.svg');
+  background-size: 20px;
 }
 
 /* Equalizer */

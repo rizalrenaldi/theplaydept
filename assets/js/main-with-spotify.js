@@ -51,6 +51,38 @@ var FadeTransition = Barba.BaseTransition.extend({
 
 });
 
+
+Barba.Dispatcher.on('newPageReady', function() {
+  var token = 'BQBT8A5_ViAF07iKx8JIxVmQGp0DWcPgMP0rwmVyXvpmIdOw4CVhOfagdylFyHCZ5WXjOW7Uguuwx31Ebgsyo2z7rXs91hZEeQKSIlepStSYXAw5GbW77Q7bh3RzMAzGmD7pcNrhnNvElLzykzpk'
+
+  var showData = $('#show-data');
+  var song = $('#song').text();
+  var artist = $('#artist').text();
+
+  $.ajax({
+    url: 'https://api.spotify.com/v1/search?q=track:"' + song + '"%20artist:"' + artist + '"&type=track',
+    type: "GET",
+    dataType: "json",
+    headers: {
+      Authorization: 'Bearer ' + token
+    }
+  })
+  .then( function(oData) {
+    console.log(oData);
+
+    var trackName = oData.tracks.items[0].name;
+    var albumName = oData.tracks.items[0].album.name;
+    var albumImage = oData.tracks.items[0].album.images[1].url;
+    var spotifyUrl = oData.tracks.items[0].external_urls.spotify;
+
+    console.log(spotifyUrl);
+
+    $('#album').append(albumName);
+    $('#image').append('<img class="coverimage" src="' + albumImage + '">');
+    $('#spotifyUrl').append('<a class="btn btn-success btn-lg" target="_blank" href="' + spotifyUrl + '">Listen to ' + trackName + ' on Spotify</a>');
+  })
+});
+
 /**
  * Next step, you have to tell Barba to use the new Transition
  */

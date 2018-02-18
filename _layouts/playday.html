@@ -9,8 +9,8 @@ title: playday
         <div class="row">
           <div class="col-md-4 playday-content order-12 order-md-1 d-flex flex-column justify-content-left align-items-start">
             <div class="mb-auto p-2">
-              <h2>{{ page.title }}</h2>
-              <h5>by {{ page.artist }}</h5>
+              <h2 id="song">{{ page.title }}</h2>
+              <h5>by <span id="artist">{{ page.artist }}</span></h5>
               <p class="mt-5 pr-4">{{ page.excerpt }}</p>
             </div>
             <div class="px-2 socmed">
@@ -28,6 +28,27 @@ title: playday
 
           </div>
         </div>
+        <!-- <div class="row">
+
+          <div class="col-md-4 mt-5 aboveall">This is ad block</div>
+
+          <div class="col-md-8 mt-5 aboveall">
+            <div class="row">
+              <div class="col-md-12 mb-5"><h4>More About {{ page.artist }}</h4></div>
+              <div class="col-md-3"><div id="image"></div></div>
+              <div class="col-md-9">
+                <ul class="trackdata">
+                  <li>Track Title: {{ page.title }}</li>
+                  <li>Artist Name: {{ page.artist }}</li>
+                  <li id="album" class="text-white">Album: </li>
+                  <li id="spotifyUrl" class="pt-4"></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div> -->
+
       </div>
     </section>
 

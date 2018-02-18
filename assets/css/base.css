@@ -406,7 +406,7 @@ h6, .h6 {
   font-size: 1.063rem;
 }
 
-.lead {
+.lead, .lead-serified {
   font-size: 1.32875rem;
   font-weight: 300;
 }
