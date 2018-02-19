@@ -13,13 +13,13 @@ name:				 The Play Dept.
 title:               The Play Dept.
 tagline:             Worth Noting Music.
 description:         Daily curated of worth noting music
-url:                 https://www.theplaydept.com/
+url:                 https://www.theplaydept.com
 rss:                 rss feed url
 baseurl:             '/'
 baseurl_posts_img:   '/assets/images/posts/'
 baseurl_featured_img: '/assets/images/hero/'
 baseurl_javascripts: '/assets/js/'
-icon:                assets/images/mstile-310x310.png # /assets/img/icon.png [best 300px X 300px]
+icon:                assets/images/bg-head.gif # /assets/img/icon.png [best 300px X 300px]
 disqus:              disqus_shortname # get it on https://disqus.com/admin/
 
 author:
