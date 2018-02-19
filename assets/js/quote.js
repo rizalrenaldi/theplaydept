@@ -9,7 +9,7 @@ var quotes = [
 
 var lyrics = [
   'And if a double-decker bus crashes into us, to die by your side is such a heavenly way to die.',
-  'You can choose a ready guide in some celestial voice. If you choose not to decide, you still have made a choice. You can choose from phantom fears and kindness that can kill. I will choose a path thats clear, I will choose freewill.',
+  'You can choose a ready guide in some celestial voice. If you choose not to decide, you still have made a choice. You can choose from phantom fears and kindness that can kill. I will choose a path that\'s clear, I will choose freewill.',
   'Libraries gave us power, then work came and made us free. What price now for a shallow piece dignity.',
   'Blackbird singing in the dead of night. Take these broken wings and learn to fly.',
   'We want our film to be beautiful, not realistic.',
