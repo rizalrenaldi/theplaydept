@@ -30,7 +30,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@{{ site.author.twitter }}">
   <meta name="twitter:creator" content="@{{ site.author.twitter }}">
-  <meta name="twitter:title" content="{% if page.artist %}{{ page.title }} by {{ page.artist }}{% elsif page.author %}{{ page.title }} by {{ page.author }}{% else %}{{ site.name }}{% endif %}}">
+  <meta name="twitter:title" content="{% if page.artist %}{{ page.title }} by {{ page.artist }}{% elsif page.author %}{{ page.title }} by {{ page.author }}{% else %}{{ site.name }}{% endif %}">
   <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta name="twitter:image" content="{% if page.artist %}{{ page.cover | prepend: site.baseurl_posts_img | prepend: site.url }}{% elsif page.author %}{{ page.cover | prepend: site.baseurl_featured_img | prepend: site.url }}{% else %}{{ site.icon | prepend: site.baseurl | prepend: site.url }}{% endif %}">
   <meta name="twitter:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
