@@ -19,7 +19,8 @@ var lyrics = [
   'Hello darkness my old friend, I\'ve come to talk with you again.',
   'I was happy in the haze of a druken hour, but heaven knows I\'m miserable now.',
   'Falling for the creep the body leech here he comes. Vicious hypnosis, a clenched fist saying it\'s wrong.',
-  'So the choice I have made may seem strange to you. But who asked you, anyway? It\'s my life to wreck my own way.'
+  'So the choice I have made may seem strange to you. But who asked you, anyway? It\'s my life to wreck my own way.',
+  'I believe I know you yet I don\'t truly know myself. I pray you won\'t feel as alone as I have felt'
 ];
 
 $(document).ready(function() {
