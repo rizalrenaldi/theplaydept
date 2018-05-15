@@ -1,0 +1,4 @@
+This is a Brave Payments publisher verification file.
+
+Domain: theplaydept.com
+Token: de43898fec6dbee80966eee577368dea0e2b5345e9885864d49ec8617228599e
