@@ -4,7 +4,7 @@ title:  "Radical Eyes"
 artist: Prophets of Rage
 date:   2018-06-07 00:00:00 +0700
 last_modified_at:  2018-06-07 00:00:00 +0700
-excerpt: "The relevance is still too damn high. Riff and the beats are too damn tight."
+excerpt: "The relevance is still too damn high. Riffs and beats are too damn tight."
 categories: playdays
 tags:  prophets of rage
 youtubeid: jc3waP7syjk
