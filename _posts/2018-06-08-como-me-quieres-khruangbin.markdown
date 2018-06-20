@@ -2,8 +2,8 @@
 layout: playday
 title:  "Como Me Quieres"
 artist: Khruangbin
-date:   2018-06-09 00:00:00 +0700
-last_modified_at:  2018-06-09 00:00:00 +0700
+date:   2018-06-08 00:00:00 +0700
+last_modified_at:  2018-06-08 00:00:00 +0700
 excerpt: "Warning: melancholic deep sad Thai funk can be so groovy and actually makes you happy."
 categories: playdays
 tags:  khruangbin
