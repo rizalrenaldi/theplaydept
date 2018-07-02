@@ -1,6 +1,6 @@
 ---
 layout: playday
-title:  "Trading Shadow"
+title:  "Trading Shadows"
 artist: Night Verses
 date:   2018-07-01 00:00:00 +0700
 last_modified_at:  2018-07-01 00:00:00 +0700
