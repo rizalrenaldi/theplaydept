@@ -4,7 +4,7 @@ title:  "F It Up"
 artist: Louis Cole
 date:   2018-10-31 00:00:00 +0700
 last_modified_at:  2018-10-31 00:00:00 +0700
-excerpt: "There's a think line between Fuck and Funk. But this one is surely funk as fuck."
+excerpt: "There's a thin line between Fuck and Funk. This one is surely funk as fuck."
 categories: playdays
 tags:  Louis Cole
 youtubeid: IxEIQQkhyeI
