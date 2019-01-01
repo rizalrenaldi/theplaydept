@@ -4,7 +4,8 @@ backend:
   accept_roles: #optional - accepts all users if left out
     - admin
     - editor
-  base_url: https://api.netlify.com
+  base_url: https://api.netlify.com/auth/done
+  site_domain: https://www.theplaydept.com
 publish_mode: editorial_workflow
 media_folder: "assets/images" # Media files will be stored in the repo under assets/images
 collections:
