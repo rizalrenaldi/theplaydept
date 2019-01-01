@@ -8,7 +8,7 @@ excerpt: "The Welsh boys are back and they sounds strong than ever."
 categories: playdays
 tags:  Manic Street Preachers
 youtubeid: JU5bn2LiOfA
-cover: msp.jpg
+cover: /assets/images/posts/msp.jpg
 artist_website: http://www.manicstreetpreachers.com/
 ---
 

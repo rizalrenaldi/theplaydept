@@ -8,7 +8,7 @@ excerpt: "The new era of Cardinal Copia sounds more vibrant and energetic."
 categories: playdays
 tags:  ghost, cardinal copia
 youtubeid: C_ijc7A5oAc
-cover: ghost.jpg
+cover: /assets/images/posts/ghost.jpg
 artist_website: http://www.ghost-official.com/
 ---
 

@@ -8,7 +8,7 @@ excerpt: "A small drop of prog is enough to make something interesting. This son
 categories: playdays
 tags:  The Pineapple Thief
 youtubeid: -yBCcT3L2e0
-cover: tpt.jpg
+cover: /assets/images/posts/tpt.jpg
 artist_website: http://www.pineapplethief.com/
 ---
 

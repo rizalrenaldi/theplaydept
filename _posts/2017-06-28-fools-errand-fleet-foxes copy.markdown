@@ -14,7 +14,7 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 videolink: <iframe width="560" height="315" src="https://www.youtube.com/embed/X5hMBxYqq5c" frameborder="0" allowfullscreen></iframe>
 youtubeid: X5hMBxYqq5c
-cover: fleet.jpg
+cover: /assets/images/posts/fleet.jpg
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/X5hMBxYqq5c" frameborder="0" allowfullscreen></iframe>

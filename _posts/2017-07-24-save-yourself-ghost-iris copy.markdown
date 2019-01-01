@@ -14,7 +14,7 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 videolink: <iframe width="560" height="315" src="https://www.youtube.com/embed/NxETj6qpDFI" frameborder="0" allowfullscreen></iframe>
 youtubeid: NxETj6qpDFI
-cover: ghostiris.jpg
+cover: /assets/images/posts/ghostiris.jpg
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NxETj6qpDFI" frameborder="0" allowfullscreen></iframe>

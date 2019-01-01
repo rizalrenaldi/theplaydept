@@ -14,7 +14,7 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 videolink: <iframe width="560" height="315" src="https://www.youtube.com/embed/Exa0CzlCb3Y" frameborder="0" allowfullscreen></iframe>
 youtubeid: Exa0CzlCb3Y
-cover: theevil.jpg
+cover: /assets/images/posts/theevil.jpg
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Exa0CzlCb3Y" frameborder="0" allowfullscreen></iframe>

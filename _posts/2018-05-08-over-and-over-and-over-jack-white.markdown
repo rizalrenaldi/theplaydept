@@ -8,7 +8,7 @@ excerpt: "This catchy and groovy song is so great that is worth to play over and
 categories: playdays
 tags:  jack white
 youtubeid: ShCRN3tFy80
-cover: jackwhite.jpg
+cover: /assets/images/posts/jackwhite.jpg
 artist_website: http://jackwhiteiii.com/
 ---
 

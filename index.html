@@ -5,7 +5,7 @@ title: Home
 
 
 {% for post in site.categories.playdays limit:1 %}
-  <section class="top" data-transition="fadeIn" style="background: url('{{ site.baseurl_posts_img }}{{ post.cover }}')no-repeat top center;">
+  <section class="top" data-transition="fadeIn" style="background: url('{{ post.cover }}')no-repeat top center;">
     <div class="separator"></div>
     <div class="container h-100">
       <div class="row h-100">
@@ -56,7 +56,7 @@ title: Home
           {% for post in site.categories.playdays offset:1 limit:6 %}
           <div class="col-lg-4 col-md-12 py-4">
             <a href="{{ post.url }}">
-              <div class="box d-flex flex-column text-center justify-content-center thumb" style="background: url('{{ site.baseurl_posts_img }}{{ post.cover }}')no-repeat center center; background-size: cover;">
+              <div class="box d-flex flex-column text-center justify-content-center thumb" style="background: url('{{ post.cover }}')no-repeat center center; background-size: cover;">
                 <div class="overlay-box"></div>
                 <div class="playday-title">
                   <h1>{{ post.title }}</h1>
@@ -104,7 +104,7 @@ title: Home
                 {% for post in site.categories.playlists limit:6 %}
                 <div class="col-md-4 my-3">
                   <a href="{{ post.url }}">
-                    <div class="box-playlist mb-5 mb-lg-0 d-flex flex-column p-4 justify-content-end" style="background: url('{{ site.url }}/assets/images/hero/{{ post.cover }}')no-repeat center center; background-size: cover;">
+                    <div class="box-playlist mb-5 mb-lg-0 d-flex flex-column p-4 justify-content-end" style="background: url('{{ post.cover }}')no-repeat center center; background-size: cover;">
                       <div class="overlay-box"></div>
                       <div class="playlist-title">
                       <h2>{{ post.title }}</h2>
@@ -143,7 +143,7 @@ title: Home
          {% for post in site.categories.playmakers limit:6 %}
          <div class="col-md-4">
            <a href="{{ post.url }}">
-           <div class="box-small d-flex flex-column p-4 justify-content-end" style="background: url('{{ site.url }}/assets/images/hero/{{ post.cover }}')no-repeat center center; background-size: cover;">
+           <div class="box-small d-flex flex-column p-4 justify-content-end" style="background: url('{{ post.cover }}')no-repeat center center; background-size: cover;">
            </div>
 
              <div class="playground-detail p-2 mt-4">

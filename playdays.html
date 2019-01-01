@@ -43,7 +43,7 @@ pagination:
         {% for post in paginator.posts %}
         <div class="col-lg-4 col-md-12 py-4">
           <a href="{{ post.url }}">
-            <div class="box d-flex flex-column text-center justify-content-center thumb" style="background: url('{{ site.baseurl_posts_img }}{{ post.cover }}')no-repeat center center; background-size: cover;">
+            <div class="box d-flex flex-column text-center justify-content-center thumb" style="background: url('{{ post.cover }}')no-repeat center center; background-size: cover;">
               <div class="overlay-box"></div>
               <div class="playday-title">
                 <h1>{{ post.title }}</h1>

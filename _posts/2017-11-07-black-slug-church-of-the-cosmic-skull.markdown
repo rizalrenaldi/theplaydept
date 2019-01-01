@@ -14,7 +14,7 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 videolink: <iframe width="560" height="315" src="https://www.youtube.com/embed/xCQCLe40avs" frameborder="0" allowfullscreen></iframe>
 youtubeid: xCQCLe40avs
-cover: cotcs.jpg
+cover: /assets/images/posts/cotcs.jpg
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xCQCLe40avs" frameborder="0" allowfullscreen></iframe>

@@ -8,7 +8,7 @@ date:   2017-05-23 01:00:00
 last_modified_at:  2017-05-23 01:00:00
 excerpt: "Orchards, Vulfpeck, Snarky Puppy, Stevie Wonder, Miami Horror"
 categories: playlists
-cover: groove.jpg
+cover: /assets/images/posts/groove.jpg
 tags:  
 - groove
 - funk

@@ -14,7 +14,7 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 videolink: <iframe width="560" height="315" src="https://www.youtube.com/embed/t8PXudersZE" frameborder="0" allowfullscreen></iframe>
 youtubeid: t8PXudersZE
-cover: crydiefly.jpg
+cover: /assets/images/posts/crydiefly.jpg
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/t8PXudersZE" frameborder="0" allowfullscreen></iframe>

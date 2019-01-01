@@ -14,7 +14,7 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 videolink: <iframe width="560" height="315" src="https://www.youtube.com/embed/L4sbDxR22z4" frameborder="0" allowfullscreen></iframe>
 youtubeid: L4sbDxR22z4
-cover: cas.jpg
+cover: /assets/images/posts/cas.jpg
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/L4sbDxR22z4" frameborder="0" allowfullscreen></iframe>

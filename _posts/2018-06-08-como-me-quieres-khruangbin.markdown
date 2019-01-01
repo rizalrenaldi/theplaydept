@@ -8,7 +8,7 @@ excerpt: "Warning: melancholic deep sad Thai funk can be so groovy and actually 
 categories: playdays
 tags:  khruangbin
 youtubeid: GHzIl82165g
-cover: khruangbin.jpg
+cover: /assets/images/posts/khruangbin.jpg
 artist_website: https://khruangbin.bandcamp.com/
 ---
 

@@ -8,7 +8,7 @@ excerpt: "A must for those who praise groove and of course, Vulfpeck and Snarky 
 categories: playdays
 tags:  the fearless flyers, vulfpeck, snarky puppy
 youtubeid: 72_zXigcOrA
-cover: tff.jpg
+cover: /assets/images/posts/tff.jpg
 artist_website: https://vulf.bandcamp.com/album/the-fearless-flyers
 ---
 

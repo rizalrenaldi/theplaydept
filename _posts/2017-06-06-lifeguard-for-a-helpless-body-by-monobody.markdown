@@ -14,7 +14,7 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 videolink: <iframe width="560" height="315" src="https://www.youtube.com/embed/9_Rj9dosXm4" frameborder="0" allowfullscreen></iframe>
 youtubeid: 9_Rj9dosXm4
-cover: lifeguard.jpg
+cover: /assets/images/posts/lifeguard.jpg
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9_Rj9dosXm4" frameborder="0" allowfullscreen></iframe>

@@ -8,7 +8,7 @@ date:   2017-06-03 01:00:00
 last_modified_at:  2017-06-03 01:00:00
 excerpt: "Fountains of Wayne, Tigers Jaw, Third Eye Blind, Teenage Fanclub"
 categories: playlists
-cover: naganoiseclub.jpg
+cover: /assets/images/posts/naganoiseclub.jpg
 tags:  
 - noise
 - tiger

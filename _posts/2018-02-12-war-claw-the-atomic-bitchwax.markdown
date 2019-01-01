@@ -8,7 +8,7 @@ excerpt: "It’s like riding on Falcon Heavy at 16.000 mph while blasting offs a
 categories: playdays
 tags:  The Atomic Bitchwax, rocknroll
 youtubeid: JxhMrdS6a8o
-cover: tab.jpg
+cover: /assets/images/posts/tab.jpg
 artist_website: http://www.theatomicbitchwax.com/
 ---
 

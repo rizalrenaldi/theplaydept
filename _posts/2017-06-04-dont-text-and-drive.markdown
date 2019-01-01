@@ -8,7 +8,7 @@ date:   2017-06-04 07:30:00 +0700
 last_modified_at:  2017-06-04 07:30:00 +0700
 excerpt: "The xx, Air, Little Dragon, Blood Orange, Pond"
 categories: playlists
-cover: textdrive.jpg
+cover: /assets/images/posts/textdrive.jpg
 tags:  
 - slow
 - chill

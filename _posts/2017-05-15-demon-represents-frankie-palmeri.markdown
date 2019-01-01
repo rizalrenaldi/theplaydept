@@ -7,7 +7,7 @@ last_modified_at:  2017-05-15 01:00:00
 excerpt: "We see demon in Frankie Palmeri and it is a good thing."
 categories: playmakers
 tags:  frankie palmeri, emmure
-cover: palmeri.jpg
+cover: /assets/images/posts/palmeri.jpg
 
 ---
 

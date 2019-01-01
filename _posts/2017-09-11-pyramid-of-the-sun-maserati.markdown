@@ -14,7 +14,7 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 videolink: <iframe width="560" height="315" src="https://www.youtube.com/embed/7aSveNrrpRA" frameborder="0" allowfullscreen></iframe>
 youtubeid: 7aSveNrrpRA
-cover: maserati.jpg
+cover: /assets/images/posts/maserati.jpg
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7aSveNrrpRA" frameborder="0" allowfullscreen></iframe>

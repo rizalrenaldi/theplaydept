@@ -14,7 +14,7 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 videolink: <iframe width="560" height="315" src="https://www.youtube.com/embed/VQFfm4fS8Yk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 youtubeid: VQFfm4fS8Yk
-cover: orchard.jpg
+cover: /assets/images/posts/orchard.jpg
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VQFfm4fS8Yk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>

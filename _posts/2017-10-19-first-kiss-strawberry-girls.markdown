@@ -14,7 +14,7 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 videolink: <iframe width="560" height="315" src="https://www.youtube.com/embed/14oCV5-bzUU" frameborder="0" allowfullscreen></iframe>
 youtubeid: 14oCV5-bzUU
-cover: sgirls.jpg
+cover: /assets/images/posts/sgirls.jpg
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/14oCV5-bzUU" frameborder="0" allowfullscreen></iframe>

@@ -14,7 +14,7 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 videolink: <iframe width="560" height="315" src="https://www.youtube.com/embed/F3ImUAHrCSQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 youtubeid: F3ImUAHrCSQ
-cover: leila.jpg
+cover: /assets/images/posts/leila.jpg
 ---
 
 

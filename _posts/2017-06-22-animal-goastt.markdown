@@ -14,7 +14,7 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 videolink: <iframe width="560" height="315" src="https://www.youtube.com/embed/KhcR4rdzzoM" frameborder="0" allowfullscreen></iframe>
 youtubeid: KhcR4rdzzoM
-cover: goastt.jpg
+cover: /assets/images/posts/goastt.jpg
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KhcR4rdzzoM" frameborder="0" allowfullscreen></iframe>

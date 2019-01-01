@@ -7,7 +7,7 @@ last_modified_at:  2018-02-18 01:00:00
 excerpt: "An early adoption movement from RAC and Imogen Heap to utilizes Blockchain as distribution platform"
 categories: playmakers
 tags:  imogen heap, RAC
-cover: imogenheap.jpg
+cover: /assets/images/posts/imogenheap.jpg
 
 ---
 

@@ -17,7 +17,7 @@ url:                 https://www.theplaydept.com
 rss:                 rss feed url
 baseurl:             '/'
 baseurl_posts_img:   '/assets/images/posts/'
-baseurl_featured_img: '/assets/images/hero/'
+baseurl_featured_img: ''
 baseurl_javascripts: '/assets/js/'
 icon:                assets/images/bg-head.gif # /assets/img/icon.png [best 300px X 300px]
 disqus:              disqus_shortname # get it on https://disqus.com/admin/

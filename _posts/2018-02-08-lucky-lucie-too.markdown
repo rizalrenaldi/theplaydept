@@ -8,5 +8,5 @@ excerpt: "Japan attack!"
 categories: playdays
 tags:  lucie_too, lucky, thistime
 youtubeid: gHsUaS9r5R8
-cover: lucietoo.jpg
+cover: /assets/images/posts/lucietoo.jpg
 ---

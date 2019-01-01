@@ -8,7 +8,7 @@ excerpt: "The relevance is still too damn high. Riffs and beats are too damn tig
 categories: playdays
 tags:  prophets of rage
 youtubeid: jc3waP7syjk
-cover: por.jpg
+cover: /assets/images/posts/por.jpg
 artist_website: http://prophetsofrage.com/
 ---
 

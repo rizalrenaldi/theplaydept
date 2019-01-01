@@ -3,7 +3,7 @@ layout: default
 title: playday
 ---
 
-<section class="viewer pt-5 bg-playday" style="background:url('/assets/images/posts/{{ page.cover }}')no-repeat top center;">
+<section class="viewer pt-5 bg-playday" style="background:url('{{ page.cover }}')no-repeat top center;">
   <div class="separator"></div>
       <div class="container">
         <div class="row">
@@ -11,7 +11,7 @@ title: playday
             <div class="mb-auto p-2">
               <h2 id="song">{{ page.title }}</h2>
               <h5>by <span id="artist">{{ page.artist }}</span></h5>
-              <p class="mt-5 pr-4">{{ page.excerpt }}</p>
+              <p class="mt-5 pr-4 text-white">{{ page.excerpt }}</p>
             </div>
             <div class="px-2 socmed">
               <a class="btn btn-primary btn-lg mr-2" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}"
@@ -85,7 +85,7 @@ title: playday
           {% if next_post %}
               <a href="{{ next_post }}">
                 <div class="overlay"></div>
-                <div class="box d-flex flex-column text-center justify-content-center thumb" style="background: url('{{ site.baseurl_posts_img }}{{ next_post_cover }}')no-repeat center center; background-size: cover;">
+                <div class="box d-flex flex-column text-center justify-content-center thumb" style="background: url('{{ next_post_cover }}')no-repeat center center; background-size: cover;">
                   <div class="playday-title">
                     <h1>{{ next_post_title }}</h1>
                     <small>by {{ next_post_artist }}</small>
@@ -98,7 +98,7 @@ title: playday
           {% if prev_post %}
               <a href="{{ prev_post }}">
                 <div class="overlay"></div>
-                <div class="box d-flex flex-column text-center justify-content-center thumb" style="background: url('{{ site.baseurl_posts_img }}{{ prev_post_cover }}')no-repeat center center; background-size: cover;">
+                <div class="box d-flex flex-column text-center justify-content-center thumb" style="background: url('{{ prev_post_cover }}')no-repeat center center; background-size: cover;">
                   <div class="playday-title">
                     <h1>{{ prev_post_title }}</h1>
                     <small>by {{ prev_post_artist }}</small>

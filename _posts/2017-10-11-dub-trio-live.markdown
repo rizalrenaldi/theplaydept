@@ -14,7 +14,7 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 videolink: <iframe width="560" height="315" src="https://www.youtube.com/embed/66BdKNVu9uQ" frameborder="0" allowfullscreen></iframe>
 youtubeid: 66BdKNVu9uQ
-cover: dubtrio.jpg
+cover: /assets/images/posts/dubtrio.jpg
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/66BdKNVu9uQ" frameborder="0" allowfullscreen></iframe>

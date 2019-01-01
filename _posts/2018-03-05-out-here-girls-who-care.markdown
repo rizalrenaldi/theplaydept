@@ -10,7 +10,7 @@ tags:  girls who care, hot dad
 bandcampid: yes
 bcalbum: 1189051823
 bctrack: 3232506576
-cover: gwc.jpg
+cover: /assets/images/posts/gwc.jpg
 artist_website: http://www.girlswhocare.com/
 ---
 

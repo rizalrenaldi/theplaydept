@@ -8,7 +8,7 @@ excerpt: "There's a thin line between Fuck and Funk. This one is surely funk as 
 categories: playdays
 tags:  Louis Cole
 youtubeid: IxEIQQkhyeI
-cover: louiscole.jpg
+cover: /assets/images/posts/louiscole.jpg
 artist_website: https://www.youtube.com/channel/UCrgACV046xX2A9ljab3u43g
 ---
 

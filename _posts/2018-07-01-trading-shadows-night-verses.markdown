@@ -8,7 +8,7 @@ excerpt: "Just when you tired of all words and all you need is complexity of sou
 categories: playdays
 tags:  Night Verses
 youtubeid: rkYXEpVnHo0
-cover: nightverses.jpg
+cover: /assets/images/posts/nightverses.jpg
 artist_website: http://www.nightverses.com/
 ---
 

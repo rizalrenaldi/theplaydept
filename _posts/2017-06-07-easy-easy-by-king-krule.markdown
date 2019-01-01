@@ -14,7 +14,7 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 videolink: <iframe width="560" height="315" src="https://www.youtube.com/embed/hRzlbh4or3c" frameborder="0" allowfullscreen></iframe>
 youtubeid: hRzlbh4or3c
-cover: kingkrule.jpg
+cover: /assets/images/posts/kingkrule.jpg
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hRzlbh4or3c" frameborder="0" allowfullscreen></iframe>

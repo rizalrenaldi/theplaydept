@@ -8,6 +8,6 @@ excerpt: "This Aussie psychedelic rock unit is definitely has potentials to be h
 categories: playdays
 tags: Psychedelic Porn Crumpets
 youtubeid: dptd62dnlXk
-cover: ppc.jpg
+cover: /assets/images/posts/ppc.jpg
 artist_website: http://www.psychedelicporncrumpets.com/
 ---

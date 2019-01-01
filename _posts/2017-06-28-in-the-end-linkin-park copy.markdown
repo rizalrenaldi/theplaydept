@@ -14,7 +14,7 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 videolink: <iframe width="560" height="315" src="https://www.youtube.com/embed/eVTXPUF4Oz4" frameborder="0" allowfullscreen></iframe>
 youtubeid: eVTXPUF4Oz4
-cover: chester.jpg
+cover: /assets/images/posts/chester.jpg
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eVTXPUF4Oz4" frameborder="0" allowfullscreen></iframe>

@@ -8,7 +8,7 @@ date:   2018-06-26 06:30:00 +0700
 last_modified_at:  2018-06-26 06:30:00 +0700
 excerpt: "Gorillaz, Arctic Monkey, Red Hot Chili Peppers"
 categories: playlists
-cover: morning5k.jpg
+cover: /assets/images/posts/morning5k.jpg
 tags:  
 - slow
 - chill
