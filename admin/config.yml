@@ -15,14 +15,14 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "playday"}
+      - {label: "Layout", name: "layout", widget: "select", options: ["playday", "playlist", "post"], default: "playday"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Artist", name: "artist", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Modifed Date", name: "last_modified_at", widget: "datetime"}
       - {label: "Excerpt", name: "excerpt", widget: "text"}
       - {label: "Categories", name: "categories", widget: "string", default: "playdays"}
       - {label: "Tags", name: "tags", widget: "string"}
-      - {label: "Youtube Link HTML iFrame", name: "videolink", widget: "string"}
       - {label: "Youtube Video ID", name: "youtubeid", widget: "string"}
       - {label: "Post Image", name: "cover", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Artist Website", name: "artist_website", widget: "string"}
