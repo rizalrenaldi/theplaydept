@@ -7,7 +7,7 @@ backend:
   base_url: https://api.netlify.com/auth/done
   site_domain: https://www.theplaydept.com
 publish_mode: editorial_workflow
-media_folder: "assets/images" # Media files will be stored in the repo under assets/images
+media_folder: "assets/images/posts" # Media files will be stored in the repo under assets/images
 collections:
   - name: "post" # Used in routes, e.g. /admin/collections/blog
     label: "Post" # Used in the UI
