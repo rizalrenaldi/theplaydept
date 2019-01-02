@@ -5,6 +5,10 @@ html, body {
   height: 100%;
 }
 
+p {
+  color: rgba(255,255,255,0.9);
+}
+
 .radius {
   border-radius: 10px;
 }
